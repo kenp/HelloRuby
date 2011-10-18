@@ -1,5 +1,6 @@
 =begin  
 	Blah blah Blah
+	change #1
 =end
 class Fugu
 	@ms_string = ""
