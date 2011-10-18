@@ -1,0 +1,31 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10f36ce0-05a8-46df-a7cb-2fe576721476}</ProjectGuid>
+    <RubyInterpreter>C:\Ruby192\bin\ruby.exe</RubyInterpreter>
+    <RubyType>Ruby 1.9.2</RubyType>
+    <RailsProject>False</RailsProject>
+    <UseMainFile>True</UseMainFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <MainFile>main.rb</MainFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.rb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fugu.rb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SapphireSteel Software\Ruby In Steel 2010\RubyInSteel.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
