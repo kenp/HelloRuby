@@ -2,6 +2,7 @@
 	Blah blah Blah
 	change #1
 	change #2
+	change #3
 =end
 class Fugu
 	@ms_string = ""
