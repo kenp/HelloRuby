@@ -1,4 +1,6 @@
-##Version 1
+=begin  
+	change #1
+=end
 
 require_relative( "fugu.rb")
 
