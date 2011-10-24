@@ -1,5 +1,6 @@
 =begin  
 	change #1
+	change #2
 =end
 
 require_relative( "fugu.rb")
